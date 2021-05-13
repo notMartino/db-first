@@ -1,0 +1,55 @@
+/* Proprietà generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: indianred;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Porprietà main */
+main{
+    min-height: 100vh;
+    color: white;
+    padding: 40px 10%;
+}
+
+ul.first > li{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 200px;
+    background-color: lightcoral;
+    text-align: center;
+}
+
+li{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+li.btn{
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+li.btn a{
+    display: inline-block;
+    background-color: lightcoral;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+li h3{
+    text-shadow: 0 0 3px black;
+}
